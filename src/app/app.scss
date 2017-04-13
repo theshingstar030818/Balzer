@@ -1,0 +1,79 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+ion-title{
+    text-align: center;
+}
+
+ion-menu[side=right] .menu-inner {
+    width: 62.5%;
+}
+
+.icon-circle{
+    padding: 5%;
+   -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+	border-radius: 50%;
+  background: map-get($colors, primary);
+  color: #fff;
+  text-align:center;
+}
+
+
+/*.icon-circle i, .icon-circle-small i, .icon-circle-large i { vertical-align: middle; }*/
+/*icon-circle-bg and icon-circle and circle-bg*/
+
+/*http://davidwalsh.name/css-circles*/
+.item-icon-circle {
+   -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px; 
+  /* width and height can be anything, as long as they're equal */
+  
+  text-align:center;
+  color:white;
+  /* font size here wont work */
+
+}
+
+.item-icon-circle i {
+  /*text-align:center;
+  color:white;*/
+   /*margin: 0px auto;
+  padding: 0px;
+  display:block;*/
+  font-size:60px;
+}
+
+/*
+    letter-spacing: 1px;
+  overflow: hidden;
+  
+    perspective-origin: 40px 40px;
+    transform-origin: 40px 40px;
+    background: rgb(0, 161, 225) none repeat scroll 0% 0% / auto padding-box border-box;
+*/
+
+.bg-circle-alt {
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px; 
+}
