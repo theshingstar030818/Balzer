@@ -4,7 +4,7 @@
     <ion-searchbar (ionInput)="Suche" placeholder="Suche"></ion-searchbar>
 
     <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+      <button menuClose ion-item *ngFor="let p of pages" [class.activeHighlight]="checkActive(p)" (click)="openPage(p)">
         <ion-icon class="icon-circle" name="{{p.icon}}"></ion-icon>
         {{p.title}}
       </button>

@@ -1,6 +1,5 @@
 // http://ionicframework.com/docs/v2/theming/
 
-
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
@@ -23,6 +22,10 @@ ion-menu[side=right] .menu-inner {
     width: 62.5%;
 }
 
+.activeHighlight{
+  background-color: map-get($colors, sideMenuHighlight);
+}
+
 .icon-circle{
     padding: 5%;
    -moz-border-radius:50%;
@@ -33,11 +36,6 @@ ion-menu[side=right] .menu-inner {
   text-align:center;
 }
 
-
-/*.icon-circle i, .icon-circle-small i, .icon-circle-large i { vertical-align: middle; }*/
-/*icon-circle-bg and icon-circle and circle-bg*/
-
-/*http://davidwalsh.name/css-circles*/
 .item-icon-circle {
    -moz-border-radius:50%;
   -webkit-border-radius:50%;
@@ -49,31 +47,4 @@ ion-menu[side=right] .menu-inner {
   text-align:center;
   color:white;
   /* font size here wont work */
-
-}
-
-.item-icon-circle i {
-  /*text-align:center;
-  color:white;*/
-   /*margin: 0px auto;
-  padding: 0px;
-  display:block;*/
-  font-size:60px;
-}
-
-/*
-    letter-spacing: 1px;
-  overflow: hidden;
-  
-    perspective-origin: 40px 40px;
-    transform-origin: 40px 40px;
-    background: rgb(0, 161, 225) none repeat scroll 0% 0% / auto padding-box border-box;
-*/
-
-.bg-circle-alt {
-  -moz-border-radius:50%;
-  -webkit-border-radius:50%;
-	border-radius: 50%;
-	width: 100px;
-	height: 100px; 
 }
