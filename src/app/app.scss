@@ -1,6 +1,6 @@
 // http://ionicframework.com/docs/v2/theming/
 
-// App Global Sass
+// App Global Sass TEST CHANGESS
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
 // styles are for the entire app and not just one component.
@@ -18,9 +18,9 @@ ion-title{
     text-align: center;
 }
 
-ion-menu[side=right] .menu-inner {
-    width: 62.5%;
-}
+/*ion-menu[side=right] .menu-inner {
+    width: 50%;
+}*/
 
 .activeHighlight{
   background-color: map-get($colors, sideMenuHighlight);
